@@ -1,0 +1,55 @@
+ul.list {
+	width: 770px;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.list li {
+	width:770px;
+	height:220px;
+	overflow:hidden;
+}
+.list li.ldisplayprice {
+	height:250px;
+}
+.list li .lpro{
+	text-align: center;
+	float:left;
+	padding:10px;
+	width:171px;
+	height:199px;
+	border-left: 1px solid #B3B3B3;
+	border-bottom: 1px solid #B3B3B3;
+}
+.list li.ldisplayprice .lpro{
+	height:229px;
+}
+.list li .lpro.lright {border-right: 1px solid #B3B3B3;width:172px;}
+.list li .ltitle {height:30px;overflow:hidden;}
+.list li .ltitle a{
+	color:#000;
+	font-weight:bold;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.list li .lpro:hover .ltitle a{color:#3B5998;}
+.list li .lmodel{color:#3B5998; font-weight:bold; display:none;}
+.list li .lmodel b{color:#000;}
+.list li .lprice {height:30px;overflow:hidden;}
+.list li .lprice .price{font-weight:bold;color:#F00;}
+.list li .lprice b{color:#000;}
+.list li .lprice .lspecial{color: #900; font-weight: bold; text-decoration: line-through;}
+.list li.lbottom .lpro.lleft.nocat {
+	-webkit-border-radius: 0 0 0 5px;
+	-moz-border-radius: 0 0 0 5px;
+	-khtml-border-radius: 0 0 0 5px;
+	border-radius: 0 0 0 5px;
+}
+.list li.lbottom .lpro.lright.nocat {
+	-webkit-border-radius: 0 0 5px 0;
+	-moz-border-radius: 0 0 5px 0;
+	-khtml-border-radius: 0 0 5px 0;
+	border-radius: 0 0 5px 0;
+}
